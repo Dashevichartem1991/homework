@@ -7,9 +7,10 @@ public class exerciseNumber6 {
         int [][] arrayDef = new int[4][4];
         for (int i = 0; i < arrayOne.length; i++) {
             for (int j = 0; j < arrayOne.length; j++) {
-                arrayOne[i][j] = i + 8;
+                arrayOne[i][j] = i + 12;
             }
         }
+
         for (int i = 0; i < arrayTwo.length; i++) {
             for (int j = 0; j < arrayTwo.length; j++) {
                 arrayTwo[i][j] = j + 10;
@@ -17,6 +18,7 @@ public class exerciseNumber6 {
         }
 
         for (int i = 0; i < arrayOne.length; i++) {
+
             for (int j = 0; j < arrayOne.length; j++) {
                arraySum[i][j] = arrayOne[i][j] + arrayTwo[i][j];
                arrayDef[i][j] = arrayOne[i][j] - arrayTwo[i][j];
