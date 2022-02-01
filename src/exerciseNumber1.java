@@ -6,12 +6,11 @@ public class exerciseNumber1 {
 
         for (int i = 0; i < array.length; i++) {
             array[i] = i + 7;
-            if (array[i] == someNum){
-                continue;
-            }else{
+            System.out.println(array[i]);
+            if (array[i] != someNum){
                 sum += array[i];
             }
         }
-        System.out.println(sum);
+        System.out.println("Сумма равна " + sum);
     }
 }
