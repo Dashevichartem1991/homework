@@ -4,7 +4,7 @@ public class exerciseNumber5 {
     boolean compare = true;
 
         for (int i = 0; i < matrix.length; i++) {
-            for (int j = 3; j > i; j--) {
+            for (int j = matrix.length - 1; j > i; j--) {
                 if (matrix[i][j] != 0){
                         compare = false;
                         break;
